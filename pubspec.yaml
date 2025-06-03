@@ -1,0 +1,42 @@
+name: dspython
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  jwt_decoder: ^2.0.1
+  flutter_animate: ^4.3.0
+  device_info_plus: ^10.0.0
+  graphql_flutter: ^5.1.0
+  flutter_tts: ^3.6.3
+  image_picker: ^1.1.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/SayMyColor.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/SayMyColor.png
+
